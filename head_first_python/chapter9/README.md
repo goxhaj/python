@@ -1,0 +1,1 @@
+# See chapter 7 how to configure database
