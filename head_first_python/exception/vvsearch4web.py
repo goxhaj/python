@@ -2,7 +2,7 @@ from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
 from flask import Flask, render_template, request, session
 from vvsearch import search4letters
 
-from head_first_python.chapter10.checker import check_logged_in
+from head_first_python.decorator.checker import check_logged_in
 
 app = Flask(__name__)
 
